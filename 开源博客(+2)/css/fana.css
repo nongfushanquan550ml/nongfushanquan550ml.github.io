@@ -1,0 +1,15 @@
+ @media all and (min-width:0px) and (max-width:900px) {
+                .main1 .content{
+                    flex-direction:column;
+                }
+            }
+@media all and (min-width:0px) and (max-width:900px) {
+                .main2 .content{
+                    flex-direction:column;
+                }
+            }
+            @media all and (min-width:0px) and (max-width:900px) {
+                #box .header .lion .b2 .ul1 li{
+                    display:none;
+                }
+            }

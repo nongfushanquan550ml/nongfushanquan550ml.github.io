@@ -1,0 +1,215 @@
+html,body{
+    height: 100%;
+}
+#box{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    width:90%;
+    height: 100%;
+    margin: auto;
+}
+.header{
+    height:44px;
+    background: #ffffff;
+}
+.header .content{
+    background: url(../images/移动端页面_01.png) no-repeat left center,url(../images/移动端页面_02.png) no-repeat center center,url(../images/移动端页面_03.png) no-repeat right center;
+}
+/* main区域 */
+.main{
+    flex: 1;
+    /* background: orange; */
+}
+.main .banner{
+    height:208px;
+    background: url(../images/banneroo1.png) center center;
+}
+.main .m1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top:17px;
+    margin-bottom: 20px;
+    background: #ffffff;
+}
+.main .k1{
+    width: 40px;
+    height: 40px;
+}
+.main .m1-1-1{
+    text-align: center;
+    font-size:7.5px;
+    line-height:7.5px;
+    color: #303030;
+    margin:10px  0px;
+}
+/* m2区域 */
+.main .m2{
+    height:64px;
+    margin:10px 0px;
+    background: url(../images/bg.png) no-repeat center center;
+    background-size:497px 64px;
+}
+.main .m2 .m2-p1{
+    margin-left:150px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.main .m2 .m2-p2{
+    margin-left:150px;
+}
+.main .m2 .m2-s1{
+    font-size:7.5px;
+    color: #d5cd9e;
+    text-align: center;
+    line-height: 10px;
+    width: 20px;
+    height: 10px;
+    border: 1px solid red;
+    margin-right:5px;
+}
+.main .m2 .m2-s2{
+    font-size:10px;
+}
+
+
+
+.main .banner2{
+    height:170px;
+    background: url(../images/banner2.png) no-repeat center center ;
+    background-size: 497px 170px;
+    margin-bottom:18px;
+}
+.ul2{
+    display: flex;
+    width:85%;
+    margin-left:25px;
+    background: #ffffff;
+    overflow-x:scroll;
+}
+.ul2 img{
+    width:75px;
+    height:70px;
+}
+.ul2 li{
+    width:150px;
+    height:125px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ul2 li .ul2-p1{
+    font-size: 6px;
+    color: #a5a5a5;
+    margin-top: 5px;
+}
+.ul2 li .ul2-p2{
+    font-size: 8px;
+    margin-top:12px;
+    font-weight: bold;
+}
+.main .jy1{
+    text-align: center;
+        margin-bottom:15px;
+         margin-top:15px;
+         background: #ffffff;
+}
+.main .jy1 .p1 span{
+    font-size:12px;
+    line-height: 12px;
+    margin-right: 10px;
+}
+.main .jy1 .p2{
+    font-size:6px;
+    color: #828282;
+    margin-top:6px;
+}
+.main .c1{
+    display: flex;
+    flex-wrap: wrap;
+  background: #f2f2f2;
+
+}
+.main .c1 img{
+    width: 160px;
+    height:80px;
+}
+.main .c1 .c2{
+    width:46%;
+    margin-right: 10px;
+    margin-left:5px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:8px;
+    color: #353535;
+    line-height:14px;
+}
+.main .c1 .c2 .span1{
+    margin-right:30px;
+    font-size: 10px;
+    color: #fe4a87;
+}
+.main .c1 .c2 .span2{
+    margin-left:30px;
+    color: #b4b4b4;
+}
+/* footer区域 */
+.footer{
+    height:65px;
+    border-top: 1px solid #e6e6e6;
+    /* background: pink; */
+ 
+}
+.footer ul{
+    width: 100%;
+    height: 100%;
+      display: flex;
+    align-items: center;
+}
+.footer ul li{
+    flex: 1;
+    color: #c2c2c2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+}
+.footer ul li img{
+    width: 23px;
+    height:23px;
+}
+.footer ul .li1:hover{
+    color: #313131;
+    background: url(../images/tab1-2.png) no-repeat center 0px;
+}
+ .footer ul .li1:hover .img1{
+   opacity: 0;
+} 
+.footer ul .li2:hover{
+    color: #313131;
+    background: url(../images/tab2-1.png) no-repeat center 0px;
+}
+ .footer ul .li2:hover .img2{
+   opacity: 0;
+} 
+.footer ul .li3:hover{
+    color: #313131;
+    background: url(../images/tab3-2.png) no-repeat center 0px;
+}
+ .footer ul .li3:hover .img3{
+   opacity: 0;
+} 
+.footer ul .li4:hover{
+    color: #313131;
+    background: url(../images/tab4-2.png) no-repeat center 0px;
+}
+ .footer ul .li4:hover .img4{
+   opacity: 0;
+} 
